@@ -33,7 +33,6 @@ for (var i = 1; i <= 100; i++) {
     if ((i % 5) == 0 && (i % 3) == 0)
         console.log("FizzBuzz");
 
-    }
     else if ((i % 3) == 0)
     {
         console.log("Fizz");
@@ -44,7 +43,8 @@ for (var i = 1; i <= 100; i++) {
         console.log("Buzz");    
     }
 
-    else {
+    else 
+    {
         console.log(i);
     }
 }
